@@ -2,7 +2,7 @@
 This project demonstrates how to build an end-to-end machine learning pipeline using DVC (Data Version Control) for data and model versioning, and MLflow for experiment tracking. The pipeline focuses on training a Random Forest Classifier on the Pima Indians Diabetes Dataset, with clear stages for data preprocessing, model training, and evaluation.
 
 Key Features of the Project:
-Data Version Control (DVC):
+Data Version Control(DVC):
 
 DVC is used to track and version the dataset, models, and pipeline stages, ensuring reproducibility across different environments.
 The pipeline is structured into stages (preprocessing, training, evaluation) that can be automatically re-executed if any dependencies change (e.g., data, scripts, or parameters).
