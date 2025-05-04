@@ -7,9 +7,9 @@ from sklearn.metrics import accuracy_score
 
 from urllib.parse import urlparse
 
-os.environ['MLFLOW_TRCKING_URI'] = "https://dagshub.com/forcoding247/Machine-Learning-PipeLine.mlflow"
-os.environ['MLFLOW_TRACKING_USERNAME'] = "forcoding247"
-os.environ['MLFLOW_TRACKING_PASSWORD'] = "f8a0e72116c9a3692360c53afb2c4baaed03b176"
+os.environ['MLFLOW_TRCKING_URI'] = "YOUR DAGSHUB REPOSITORY LINK"
+os.environ['MLFLOW_TRACKING_USERNAME'] = "YOUR DAGSHUB USERNAME"
+os.environ['MLFLOW_TRACKING_PASSWORD'] = "YOUR DAGSHUB TOKEN"
 
 
 ## Loading the parameters from params.yaml
