@@ -10,6 +10,7 @@ import os
 from urllib.parse import urlparse
 import mlflow
 
+## Setting environment Variables
 os.environ['MLFLOW_TRCKING_URI'] = "YOUR DAGSHUB REPOSITORY LINK"
 os.environ['MLFLOW_TRACKING_USERNAME'] = "YOUR DAGSHUB USERNAME"
 os.environ['MLFLOW_TRACKING_PASSWORD'] = "YOUR DAGSHUB TOKEN"
